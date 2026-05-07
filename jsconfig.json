@@ -3,10 +3,10 @@
     "module": "commonjs",
     "target": "ES2022",
     "moduleResolution": "node",
-    "checkJs": false,
+    "checkJs": true,
     "noEmit": true,
     "skipLibCheck": true
   },
-  "include": ["backend/**/*.js", "*.js"],
+  "include": ["backend/**/*.js", "*.js", "types/**/*.d.ts"],
   "exclude": ["node_modules"]
 }
